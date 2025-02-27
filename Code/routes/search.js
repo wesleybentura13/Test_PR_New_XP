@@ -23,7 +23,6 @@ module.exports = function searchProducts () {
                 solved = solved && utils.containsOrEscaped(dataString, users.data[i].email) && utils.contains(dataString, users.data[i].password)
                 if (!solved) {
                   break
-                  test
                 }
               }
               if (solved) {
